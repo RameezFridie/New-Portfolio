@@ -1,0 +1,149 @@
+/*=======================================================
+	Section Styles
+=======================================================*/
+
+.main-content {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    box-shadow: 0 0 0 10px #FFF;
+}
+
+.section {
+    position: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    z-index: -1;
+    visibility: visible;
+    padding-top: 110px;
+    background: #F0F0F0;
+}
+
+.section.active {
+    visibility: visible;
+    z-index: 99;
+}
+
+.section-header {
+    position: relative;
+}
+
+.section-header>h2 {
+    font-size: 28px;
+    font-weight: 200;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.sections {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*=======================================================
+	Main Section
+=======================================================*/
+
+.section-main {
+    background-size: cover;
+    background-image: url(../img/bg.jpg);
+}
+
+.section-main:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #303F9F;
+    opacity: .8;
+    z-index: -1;
+}
+
+.intro-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-text>h1 {
+    margin: 0;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 78px;
+}
+
+.intro-text>p {
+    font-size: 18px;
+    color: #FFF;
+    color: rgba(255, 255, 255, .8);
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.intro-text>.intro-btns {
+    margin-top: 45px;
+}
+
+.intro-text>.intro-btns>.btn-custom {
+    margin: 0 15px;
+}
+
+a.btn-custom {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btn-custom {
+    color: #FFF;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 1em;
+    padding: 17px 32px;
+    position: relative;
+    z-index: 5;
+    background: transparent;
+    border: none;
+}
+
+.section-main {
+    padding: 0;
+}
+
+.section-main,
+.section-main>.container-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+.v-align {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.v-align>.inner {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
