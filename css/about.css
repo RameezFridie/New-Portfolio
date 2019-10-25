@@ -11,8 +11,8 @@
 }
 
 .about-text>p {
-    font-size: 14px;
-    color: rgba(0, 0, 0, .4);
+    font-size: 20px;
+    color: rgba(34, 3, 3, 0.4);
     line-height: 1.8em;
     margin: 50px;
 }

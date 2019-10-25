@@ -60,7 +60,6 @@ li {
 
 .portfolio-items>li {
     width: 33.3333%;
-    margin-block: 10px;
 }
 
 .portfolio-items>li>.inner {
@@ -127,13 +126,12 @@ li {
     vertical-align: middle;
     position: absolute;
     top: 50%;
-    margin-top: -29px;
     color: #FFF;
     color: rgba(255, 255, 255, .6);
     text-decoration: none;
     left: 0;
     right: 0;
-    padding: 20px 0;
+    padding: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
     -webkit-transition: all .3s cubic-bezier(.785, .135, .15, .86);

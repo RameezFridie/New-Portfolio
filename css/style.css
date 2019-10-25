@@ -68,6 +68,8 @@
         height: 200px;
         border: 1px solid #f1f1f1;
         perspective: 1000px;
+        padding: 10px;
+        margin-bottom: 5%;
         /* Remove this if you don't want the 3D effect */
     }
     /* This container is needed to position the front and back side */
@@ -107,17 +109,21 @@
     }
     
     .skills-images {
-        height: 20vh;
+        height: 15vh;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
     }
     
     .my-skill-items {
         margin-bottom: 20vh;
+        margin-left: 20%;
+        margin-right: 10%;
     }
     
     .cont {
         width: 200px;
         height: 260px;
-        position: relative;
         -webkit-perspective: 800px;
         -moz-perspective: 800px;
         -o-perspective: 800px;
