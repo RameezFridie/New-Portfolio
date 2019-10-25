@@ -58,10 +58,6 @@ li {
     overflow: visible !important;
 } */
 
-.portfolio-items>li {
-    width: 33.3333%;
-}
-
 .portfolio-items>li>.inner {
     margin: 5px;
     position: relative;
@@ -292,4 +288,10 @@ li {
 
 img {
     height: 300px;
+}
+
+.the-port-items {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
